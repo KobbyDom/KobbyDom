@@ -1,8 +1,8 @@
 # 👋 Hi, I’m @KobbyDom
 ## 👀 I’m interested in Software Development
-- 🌱 I’m currently learning Python
-- 💞️ I’m looking to collaborate on any project
-- 📫 How to reach me @KobbyDom
+## 🌱 I’m currently learning Python
+## 💞️ I’m looking to collaborate on any project
+## 📫 How to reach me @KobbyDom
 - ![get_git](https://user-images.githubusercontent.com/97296712/148650098-540e107a-4ab2-4d8a-919e-e7f55a06f32b.jpg)
 
 <!---
