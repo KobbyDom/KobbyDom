@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @KobbyDom
+# 👋 Hi, I’m @KobbyDom
 - 👀 I’m interested in Software Development
 - 🌱 I’m currently learning Python
 - 💞️ I’m looking to collaborate on any project
