@@ -51,11 +51,9 @@ def grading():
 
 
 school_courses()
-print()
 
 
 select_course = int(input('Please select course using course number:> '))
-print()
 
 # fetch the values(subjects) from the dict based on selected key(Course)
 display_select_course = school_course[select_course]
@@ -65,7 +63,6 @@ for i, subjects in enumerate(display_select_course, start=1):
     print(i, subjects)
 
 # adding selected subjects to list
-print()
 while True:
     add_subjects = int(input('Add subjects by selecting subject number:> '))
     adding_course = display_select_course[add_subjects - 1]
@@ -91,5 +88,4 @@ if length_of_marks_list == length_of_subject_list:
     print()
     for subjects, student_marks, grades in zip(subject_list, subject_marks, grading_list):
         print('{}----------{}--({})'.format(subjects, student_marks, grades))
-    print()
     print('Examination report successfully generated!!!')
