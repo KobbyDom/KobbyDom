@@ -1,4 +1,5 @@
 from grading_system import school_courses, general_subjects
+import datetime as dt
 
 grading_list = []
 
@@ -86,6 +87,8 @@ while True:
 
 if length_of_marks_list == length_of_subject_list:
     print()
+    print(f'Terminal Report for {dt.date.year} Academic Year')
     for subjects, student_marks, grades in zip(subject_list, subject_marks, grading_list):
         print('{}----------{}--({})'.format(subjects, student_marks, grades))
     print('Examination report successfully generated!!!')
+print(f'Report printed on {dt.datetime.today()}')
