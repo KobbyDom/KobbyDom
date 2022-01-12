@@ -1,9 +1,9 @@
 # Income Bands As At 2018
-first_cum_income = 319
-next_cum_income_1 = 419
-next_cum_income_2 = 539
-next_cum_income_3 = 3539
-next_cum_income_4 = 20000
+first_cum_income = 365
+next_cum_income_1 = 475
+next_cum_income_2 = 605
+next_cum_income_3 = 3_605
+next_cum_income_4 = 20_000
 
 # Income Rates As At 2018
 Rate_1 = 0.00
