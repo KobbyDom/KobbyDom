@@ -53,7 +53,6 @@ def grading():
 
 school_courses()
 
-
 select_course = int(input('Please select course using course number:> '))
 
 # fetch the values(subjects) from the dict based on selected key(Course)
