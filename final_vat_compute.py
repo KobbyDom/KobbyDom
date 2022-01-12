@@ -13,16 +13,16 @@ class ComputeVAT:
         vat_amount = taxable_value * 0.125
         total_amount = taxable_value + vat_amount
         total_price = (f'''
-Item Price:                     GH¢{item_price}
-NHIL Amount:      GH¢{round(nhil_component, 2)}
-GETFUND Amount:   GH¢{round(getfund_component, 2)}
-COVID19 Amount:   GH¢{round(covid19_component, 2)}
-                                GH¢{round(total_non_vat_levy, 2)}
+Item Price:                     GH¢{item_price: ,}
+NHIL Amount:      GH¢{round(nhil_component, 2): ,}
+GETFUND Amount:   GH¢{round(getfund_component, 2): ,}
+COVID19 Amount:   GH¢{round(covid19_component, 2): ,}
+                                GH¢{round(total_non_vat_levy, 2): ,}
                                 __________________
-Taxable Amount:                 GH¢{round(taxable_value, 2)}
-VAT Amount:                     GH¢{round(vat_amount, 2)}
+Taxable Amount:                 GH¢{round(taxable_value, 2): ,}
+VAT Amount:                     GH¢{round(vat_amount, 2): ,}
                                 __________________
-Total Amount                    GH¢{round(total_amount, 2)}
+Total Amount                    GH¢{round(total_amount, 2): ,}
 ''')
         return total_price
 
@@ -30,6 +30,6 @@ Total Amount                    GH¢{round(total_amount, 2)}
 item_price = float(input('Item Price:-> '))
 
 vat_compute = ComputeVAT(item_price)
-print(f'The VAT inclusive amount for your item price of GH¢{item_price} is')
 print()
 print(vat_compute.vat_components())
+
