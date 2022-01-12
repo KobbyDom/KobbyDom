@@ -198,4 +198,3 @@ if staff_rank == 3:
     manager_net_salary = manager_gross_salary - manager_total_deductions
     print(f'Net Salary ----------------------------------------GH¢{manager_net_salary:,}')
 
-
