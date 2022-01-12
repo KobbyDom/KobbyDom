@@ -86,7 +86,6 @@ while True:
         break
 
 if length_of_marks_list == length_of_subject_list:
-    print()
     print(f'Terminal Report for {dt.date.year} Academic Year')
     for subjects, student_marks, grades in zip(subject_list, subject_marks, grading_list):
         print('{}----------{}--({})'.format(subjects, student_marks, grades))
