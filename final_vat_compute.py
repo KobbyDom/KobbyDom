@@ -33,4 +33,3 @@ vat_compute = ComputeVAT(item_price)
 print(f'The VAT inclusive amount for your item price of GH¢{item_price} is')
 print()
 print(vat_compute.vat_components())
-
