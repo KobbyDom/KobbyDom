@@ -74,7 +74,7 @@ while True:
         column_names = ['Date', 'Student ID', 'First Name', 'Middle Name', 'Last Name']
         write_to_db = csv.DictWriter(f, fieldnames=column_names)
 
-        # write_to_db.writeheader()
+        write_to_db.writeheader()
         write_to_db.writerow(
             {'Date': db_date, 'Student ID': create_student_id(),
              'First Name': first_name,
@@ -82,6 +82,3 @@ while True:
              'Last Name': last_name})
     print('Student Data Stores successfully')
     print('Thank You For Registering')
-
-
-
